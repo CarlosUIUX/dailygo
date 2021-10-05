@@ -101,7 +101,7 @@ nav button{
 }
 
 .menu{
-  display: flex;
+  display: inline-flex;
   align-self: center;
   justify-self: right;
 }
@@ -119,7 +119,6 @@ nav button{
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  grid-auto-rows: auto;
 }
 
 #hero .hero-content{
@@ -229,17 +228,17 @@ nav button{
 
 .product:nth-child(1){
   padding-right:28px;
-  border-right: 1px solid rgba(255, 255, 255, 0.25);
+  border-right: 1px solid rgba(255, 255, 255, 0.5);
 }
 
 .product:nth-child(2){
   padding-right:28px;
-  border-right: 1px solid rgba(255, 255, 255, 0.25);
+  border-right: 1px solid rgba(255, 255, 255, 0.5);
 }
 
 .product:nth-child(3){
   padding-right:28px;
-  border-right: 1px solid rgba(255, 255, 255, 0.25);
+  border-right: 1px solid rgba(255, 255, 255, 0.5);
 }
 
 .app{
