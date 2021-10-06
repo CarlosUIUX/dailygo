@@ -101,7 +101,7 @@ nav button{
 }
 
 .menu{
-  display: inline-flex;
+  display: flex;
   align-self: center;
   justify-self: right;
 }
@@ -115,10 +115,11 @@ nav button{
 #hero{
   width: 100%;
   height: 700px;
-  background-image: url(img/pexels-mart-production-7706418.jpg);
+  background-image: url(/img/pexels-mart-production-7706418.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  grid-auto-rows: auto;
 }
 
 #hero .hero-content{
@@ -228,17 +229,17 @@ nav button{
 
 .product:nth-child(1){
   padding-right:28px;
-  border-right: 1px solid rgba(255, 255, 255, 0.5);
+  border-right: 1px solid rgba(255, 255, 255, 0.25);
 }
 
 .product:nth-child(2){
   padding-right:28px;
-  border-right: 1px solid rgba(255, 255, 255, 0.5);
+  border-right: 1px solid rgba(255, 255, 255, 0.25);
 }
 
 .product:nth-child(3){
   padding-right:28px;
-  border-right: 1px solid rgba(255, 255, 255, 0.5);
+  border-right: 1px solid rgba(255, 255, 255, 0.25);
 }
 
 .app{
