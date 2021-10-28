@@ -123,7 +123,7 @@ input:focus{
 }
 
 body {
-    background-image: url(img/register_bg_1080.png);
+    background-image: url("https://images.pexels.com/photos/7706444/pexels-photo-7706444.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
