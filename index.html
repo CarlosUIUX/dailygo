@@ -17,12 +17,8 @@
                 <img src="icon-png/logo.png" alt="DaylyGo">
             </div>
             <div class="menu">
-                <form method="get" action="register.html">
-                    <button class="btn-secundary">Entrar</button>
-                </form>
-                <form method="get" action="register.html">
-                    <button class="btn-primary">Registrarse</button>
-                </form>
+                <a href="register.html" class="btn-secundary">Entrar</button>
+                <a href="register.html" class="btn-primary">Registrarse</button>
                 <img class="lat-menu" src="svg/menu-right.svg" alt="">
             </div>
         </div>
@@ -33,7 +29,7 @@
             <h4 class="animate__animated animate__fadeInUp">¡Somos hiperrápidos! Pide o envía cualquier cosa en tu <br> ciudad y lo recogeremos y entregaremos en minutos.</h4>
             <div class="search-filter">
                 <p class="bolder">Escribe el producto que buscas y tu dirección para comenzar:</p>
-                <form class="search-filter-input">
+                <form class="search-filter-input" action="index.html" method="post">
                     <input type="text" id="ubicacion" name="ubicacion" placeholder="Nombre de producto o comida">
                     <input type="text" id="cpostal" name="cpostal" placeholder="Código postal">
                     <input type="submit" class="btn-primary" value="Buscar">
